@@ -1,0 +1,55 @@
+
+#learn-more {
+  .signup-form-copy, 
+  .signup-form-container {
+    height: 100%;
+  }
+
+  .signup-form-copy {
+    background: $lt-blue;
+    color: $blue;
+    font-family: 'Light';
+    position: relative;
+    &:before {
+      content: '';
+      height: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 100%;
+      width: 200%;
+      background: $lt-blue;
+    }
+    h3 {
+      margin: 0;
+    }
+  }
+
+  .signup-form-container {
+    border-top: 1px solid $border-grey;
+    border-bottom: 1px solid $border-grey;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    @include tablet {
+      position: static;
+    }
+
+    &:after {
+      content: '';
+      height: 100%;
+      position: absolute;
+      top: -1px;
+      bottom: 0;
+      left: 100%;
+      width: 200%;
+      border-top: 1px solid $border-grey;
+      border-bottom: 1px solid $border-grey;
+      
+    }
+  }
+}
+
+

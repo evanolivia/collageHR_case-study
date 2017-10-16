@@ -1,0 +1,19 @@
+.testimonial-copy {
+  max-width: 100%;
+}
+
+.client-info {
+  .client-photo,
+  .client-info-copy {
+    display: inline-block;
+  }
+
+  .client-photo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .client-info-copy {
+    width: calc(100% - 80px);
+  }
+}

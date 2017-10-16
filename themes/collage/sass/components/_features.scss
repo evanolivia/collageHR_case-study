@@ -1,0 +1,16 @@
+#features {
+  background: $bg-grey;
+  .features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .features-list {
+    padding-left: 2.5rem;
+
+    @include tablet {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+}

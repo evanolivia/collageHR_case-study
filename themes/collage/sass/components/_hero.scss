@@ -1,0 +1,53 @@
+#hero {
+  margin: 0 2rem;
+  @include tablet {
+    margin: 0;
+  }
+  .hero-mobile {
+    display: none;
+    @include tablet {
+      display: block;
+      min-height: 500px;
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      padding-left: 3.5rem;
+    }
+
+    @include mobile {
+      background-position: -200px;
+      padding: 1.5rem;
+    }
+
+    .hero-logo {
+      max-width: 200px;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .hero-img-container {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  .hero-copy-container,
+  .hero-img-container {
+    height: 700px;
+
+    &.desktop {
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+
+
+  .hero-features-list {
+    @media(max-width: 980px) {
+      display: none;
+    }
+  }
+}

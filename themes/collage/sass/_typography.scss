@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Light';  
+  src: 
+    url(/wp-content/themes/collage/assets/fonts/Circular-Book-WebPro/lineto-circular-pro-book.woff) format('woff'),
+    url(/wp-content/themes/collage/assets/fonts/Circular-Book-WebPro/lineto-circular-pro-book.woff2) format('woff2'),
+    url(/wp-content/themes/collage/assets/fonts/Circular-Book-WebPro/lineto-circular-pro-book.eot) format('eot');  
+  font-weight: normal;  
+}
+
+@font-face {
+  font-family: 'Medium';  
+  src: 
+    url(/wp-content/themes/collage/assets/fonts/Circular-Medium-WebPro/lineto-circular-pro-medium.woff) format('woff'), 
+    url(/wp-content/themes/collage/assets/fonts/Circular-Medium-WebPro/lineto-circular-pro-medium.woff2) format('woff2'), 
+    url(/wp-content/themes/collage/assets/fonts/Circular-Medium-WebPro/lineto-circular-pro-medium.eot) format('eot');  
+  font-weight: normal;  
+}
+
+@font-face {
+  font-family: 'Bold';  
+  src: 
+    url(/wp-content/themes/collage/assets/fonts/Circular-Bold-WebPro/lineto-circular-pro-bold.woff) format('woff'),
+    url(/wp-content/themes/collage/assets/fonts/Circular-Bold-WebPro/lineto-circular-pro-bold.woff2) format('woff2'),
+    url(/wp-content/themes/collage/assets/fonts/Circular-Bold-WebPro/lineto-circular-pro-bold.eot) format('eot');  
+  font-weight: normal;  
+}
+
+.light {
+  font-family: Light;
+}
+
+.medium {
+  font-family: Medium;
+}
+
+.bold {
+  font-family: Bold;
+}
+
+.h1 { font-size: 3.125rem; letter-spacing: -0.68px; }   // 50px
+.h2 { font-size: 2.5rem; }   // 40px
+.h3 { font-size: 2rem; letter-spacing: -0.3px; }    // 32px
+.h4 { font-size: 1.6875rem; letter-spacing: -0.3px; } // 27px
+.h5 { font-size: 1.375rem; letter-spacing: -0.25px; } // 22px
+.h6 { font-size: 1.25rem; }  // 20px
+.h7 { font-size: 1.125rem; letter-spacing: -0.08px; } // 18px
+.h8 { font-size: 1rem; }     // 16px
+.h9 { font-size: 0.9375rem; } // 15px
+.h10 { font-size: 0.875rem; } // 14px
+.h11 { font-size: 0.75rem; } // 12px
+
+// xs-
+@media (max-width: 640px) {
+  .h1 { font-size: 32px; }
+}
+
+
+
